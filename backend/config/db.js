@@ -2,7 +2,7 @@ import mongoose from 'mongoose'
 
 const connectDB = async () => {
   try {
-    const conn = await mongoose.connect(process.env.MONGO_URI, {
+    const conn = await mongoose.connect(`mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.tyzulp1.mongodb.net/myshop`, {
       useUnifiedTopology: true,
       useNewUrlParser: true,
       useCreateIndex: true,
