@@ -21,4 +21,4 @@
 
 ## LIVE DEMO
 
-https://myshopapp-smeet.herokuapp.com/
+https://my-pro-shop.onrender.com/
